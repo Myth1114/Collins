@@ -1,0 +1,71 @@
+// COLOR VARIABLES
+$color-primary: #00ae42;
+// $color-primary-dark: #b28451;
+
+// $color-secondary: #101d2c;
+
+// $color-grey-light-1: #f9f7f6;
+// $color-grey-light-2: #aaa;
+
+// $color-grey-dark-1: #54483a;
+// $color-grey-dark-2: #6d5d4b;
+
+$button-colors: #00ae42;
+// FONT VARIABLES
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Oswald', sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%;
+  }
+}
+body {
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+  cursor: pointer;
+  // &:hover {
+  //   transform: scale(0.97);
+  //   transition: all 0.3s ease-in-out;
+  // }
+}
+
+//components
+@import './Components/HeroSection/herosection';
+@import './Components/NavBar/navbar';
+
+//pages
+@import './Pages/LandingPage/landingPage';
+
+//others
+@import './Sass/typography';
+@import './Components/Button/button';
+@import './Animations/animation';
