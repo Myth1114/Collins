@@ -1,12 +1,14 @@
 import React from 'react'
 import HeroSection from '../../Components/HeroSection/HeroSection'
-import NavBar from '../../Components/NavBar/NavBar'
+import TestPreparation from '../../Components/TestPreparation/TestPreparation'
+// import TopHeader from '../../Components/TopHeader/Topheader'
 
 const LandingPage = () => {
   return (
-    <div>
-      <NavBar />
+    <div className='LandingPage'>
+      {/* <TopHeader/> */}
       <HeroSection />
+      <TestPreparation />
     </div>
   )
 }
