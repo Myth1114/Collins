@@ -16,18 +16,18 @@
   
     z-index: 10;
     cursor: pointer;
-    &:hover {
-      background-color: $button-colors;
-      color: #fff;
-    }
-    &:active {
-      background-color: $button-colors;
-      color: #fff;
-    }
+    // &:hover {
+    //   background-color: $primary-color;
+    //   color: #fff;
+    // }
+    // &:active {
+    //   background-color: $primary-color;
+    //   color: #fff;
+    // }
   }
   .btn-2 {
     width: 30%;
-    background: $button-colors;
+    background: $secondary-color;
     padding: 1.5rem 0;
     border: none;
     border-radius: 0.5rem;
@@ -44,15 +44,15 @@
     padding: 0.7rem 1rem;
     background-color: #fff;
   }
-  .btn-5 {
-    width: 8rem;
-    background-color: $button-colors;
-    border-radius: 0.1rem;
-    padding: 0.7rem 0rem;
-    font-size: 0.9rem;
-    margin-right: 0.4rem;
-    border: none;
-  }
+  // .btn-5 {
+  //   width: 8rem;
+  //   background-color: $button-colors;
+  //   border-radius: 0.1rem;
+  //   padding: 0.7rem 0rem;
+  //   font-size: 0.9rem;
+  //   margin-right: 0.4rem;
+  //   border: none;
+  // }
   
  
  
