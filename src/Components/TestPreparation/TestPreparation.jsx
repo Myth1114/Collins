@@ -12,6 +12,9 @@ const TestPreparation = () => {
             repellat provident dolor quo dolores, magni ullam impedit numquam
             maiores itaque nisi facilis sed.
           </p>
+          <div className='AeroPlane'>
+            <img src='/Images/aeroplane2.png' alt='fly-high'></img>
+          </div>
         </div>
         <div className='Preparation__Image'>
           <img className='TestImage' src='/Images/test-3.jpg' alt='test'></img>

@@ -1,7 +1,9 @@
 import React from 'react'
+import Footer from '../../Components/Footer/Footer'
 import HeroSection from '../../Components/HeroSection/HeroSection'
+import Services from '../../Components/Services/Services'
 import TestPreparation from '../../Components/TestPreparation/TestPreparation'
-// import TopHeader from '../../Components/TopHeader/Topheader'
+
 
 const LandingPage = () => {
   return (
@@ -9,6 +11,8 @@ const LandingPage = () => {
       {/* <TopHeader/> */}
       <HeroSection />
       <TestPreparation />
+      <Services />
+      <Footer/>
     </div>
   )
 }

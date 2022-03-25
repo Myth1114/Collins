@@ -3,24 +3,7 @@
   justify-content: space-between;
   margin: 0.5rem 4rem 0 4rem;
   align-items: center;
-  & .Social {
-    &__List {
-      display: flex;
-    }
-    &__Icon {
-      font-size: 1.6rem;
-      margin: 0 0.7rem;
-      & .facebook {
-        color: #3b5998;
-      }
-      & .instagram {
-        color: #bc2a8d;
-      }
-      & .twitter {
-        color: #00acee;
-      }
-    }
-  }
+  
   & .Contact {
     display: flex;
     align-items: center;
@@ -31,6 +14,24 @@
     }
     &__Title {
       font-size: 1.3rem;
+    }
+  }
+}
+ .Social {
+  &__List {
+    display: flex;
+  }
+  &__Icon {
+    font-size: 1.6rem;
+    margin: 0 0.7rem;
+    & .facebook {
+      color: #3b5998;
+    }
+    & .instagram {
+      color: #bc2a8d;
+    }
+    & .twitter {
+      color: #00acee;
     }
   }
 }

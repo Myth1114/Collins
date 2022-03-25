@@ -1,0 +1,26 @@
+.Section__Services {
+  margin: 4rem 1rem;
+  & .Services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1%;
+    text-align: center;
+    &__Card {
+      background-color: #f3f3f3;
+      padding: 5rem;
+      border-radius: 1rem;
+      border-bottom: 5px solid $primary-color;
+      box-shadow: 0 6px 16px rgb(0 0 0 / 20%);
+      & .Icon {
+        font-size: 5rem;
+        color: $primary-color;
+      }
+      & .Title {
+        font-size: 2rem;
+      }
+      & .Description {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

@@ -6,9 +6,19 @@
     margin: 10rem;
     align-items: center;
     &__Text {
+      position: relative;
       & p {
         font-size: 1.1rem;
         color: #666;
+      }
+      & .AeroPlane {
+        position: absolute;
+        margin-top: 3rem;
+        opacity: 0.5;
+        & img {
+          width: 15rem;
+          transform: scaleX(-1);
+        }
       }
     }
     &__Image {
