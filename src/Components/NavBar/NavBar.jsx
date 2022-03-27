@@ -27,9 +27,11 @@ const NavBar = () => {
             <li>
               <span>Contact</span>
             </li>
-            <li>
-              <span>Resources</span>
-            </li>
+            <Link to='/resources'>
+              <li>
+                <span>Resources</span>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
