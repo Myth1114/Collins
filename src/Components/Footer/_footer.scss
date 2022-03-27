@@ -1,5 +1,8 @@
 footer {
   background-color: #fafafa;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   & .Footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

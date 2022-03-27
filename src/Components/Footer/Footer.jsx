@@ -5,6 +5,7 @@ import { BsTwitter } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { HiPhone } from 'react-icons/hi'
 import { GoLocation } from 'react-icons/go'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer>
@@ -31,8 +32,12 @@ const Footer = () => {
         <div className='Footer__Middle'>
           <h2>Important Links</h2>
           <ul>
-            <li>Home</li>
-            <li>About</li>
+            <Link to='/'>
+              <li>Home</li>
+            </Link>
+            <Link to='/about'>
+              <li>About</li>
+            </Link>
             <li>Contact</li>
             <li>Why GRE?</li>
             <li>Resources</li>

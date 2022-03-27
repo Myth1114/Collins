@@ -1,0 +1,48 @@
+.Testimonial {
+  margin: 10rem 0;
+  &__Container {
+    width: 50%;
+    padding:1rem 6rem 4rem 6rem !important;
+    background-color: #fafafa;
+    @media (min-width: 900px) {
+      &__Container {
+        width: 60%;
+      }
+    }
+    @media (max-width: 600px) {
+      &__Container {
+        width: 90%;
+      }
+    }
+  }
+  &__Article {
+    background-color: #ffffff;
+    border: 1px solid #ECECEC;
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 5rem 0;
+    & .Image {
+      width: 6rem;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 1rem;
+      border: 0.2rem solid $primary-color;
+    }
+    & small {
+      display: block;
+      font-weight: 300;
+      font-size: 1.1rem;
+    //   color: #cccc;
+      width: 80%;
+      margin: 0.8rem auto 0;
+    }
+    & h5{
+        font-size: 1.4rem;
+    }
+  }
+}
+.Swiper {
+  padding: 7rem !important;
+}
