@@ -1,30 +1,49 @@
 footer {
-  background-color: #fafafa;
+  position: relative;
+  background: linear-gradient(
+    45deg,
+    hsl(114deg 61% 43%) 0%,
+    hsl(116deg 58% 40%) 11%,
+    hsl(117deg 56% 36%) 22%,
+    hsl(119deg 54% 33%) 33%,
+    hsl(120deg 52% 29%) 44%,
+    hsl(121deg 51% 25%) 56%,
+    hsl(122deg 49% 22%) 67%,
+    hsl(123deg 47% 18%) 78%,
+    hsl(123deg 43% 15%) 89%,
+    hsl(123deg 39% 12%) 100%
+  );
   left: 0;
   bottom: 0;
   width: 100%;
+  color: #fff;
   & .Footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    padding: 4rem 1rem;
-    & h2{
-        margin-bottom: 1rem;
-        font-size: 1.7rem;
+    padding: 10rem 1rem 6rem 1rem;
+    & h2 {
+      margin-bottom: 1rem;
+      font-size: 1.7rem;
     }
     &__Left {
-        & .FooterSocial{
-            margin-top: 1rem;
-        }
+      & .FooterSocial {
+        margin-top: 1rem;
+      }
+      & q{
+        color: #fff;
+      }
     }
     &__Middle {
       & ul {
         list-style: none;
+       
         & li {
           margin: 0.6rem 0;
           font-size: 1.3rem;
-        //   font-weight: 500;
+          color: #fff;
+          //   font-weight: 500;
         }
       }
     }
@@ -39,7 +58,7 @@ footer {
           & .Icon {
             font-size: 3rem;
             margin-right: 0.5rem;
-            color: $primary-color;
+            
           }
           & span {
             font-size: 1.3rem;
@@ -48,4 +67,24 @@ footer {
       }
     }
   }
+}
+
+.custom-shape-divider-top-1648825718 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648825718 svg {
+  position: relative;
+  display: block;
+  width: calc(138% + 1.3px);
+  height: 175px;
+}
+
+.custom-shape-divider-top-1648825718 .shape-fill {
+  fill: #ffffff;
 }

@@ -1,0 +1,47 @@
+.Section__Parallax {
+  margin: 10rem 0rem;
+  position: relative;
+  & .Parallax {
+    background-image: url('../../assets/heroImage-2.jpg');
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 0.7;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 174, 66, 0.84);
+    }
+  }
+
+  & .Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+> * {
+  margin-bottom: 1rem;
+}
+    & h1{
+      font-size: 4rem;
+    }
+    & span {
+      font-size: 1.1rem;
+    }
+  }
+}
