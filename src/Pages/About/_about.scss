@@ -1,0 +1,67 @@
+.Section_AboutUs {
+  position: relative;
+}
+.AboutUs__Parallax {
+  position: relative;
+  &--Parallax {
+    background-image: url('../../assets/heroImage-2.jpg');
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 0.7;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 174, 66, 0.84);
+    }
+  }
+  &--Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    & h1 {
+      font-size: 2rem;
+      color: #fff;
+      opacity: .9;
+    }
+    & p {
+      font-size: 3rem;
+      color: #ffffff;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+}
+
+.AboutUs__Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 10rem 15rem;
+
+  border-radius: 1rem;
+  border-bottom: 5px solid $primary-color;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 20%);
+  &--Left {
+    margin: 0.5rem;
+    & p {
+      font-size: 1.4rem;
+      color: #666;
+      letter-spacing: 1px;
+    }
+  }
+  &--Right {
+    background-color: orangered;
+  }
+}

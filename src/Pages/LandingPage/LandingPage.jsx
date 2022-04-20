@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../../Components/Footer/Footer'
+// import Footer from '../../Components/Footer/Footer'
 import HeroSection from '../../Components/HeroSection/HeroSection'
 import Parallax from '../../Components/Parallax/Parallax'
 import Services from '../../Components/Services/Services'
@@ -14,7 +14,7 @@ const LandingPage = () => {
       <Services />
       <Parallax />
       <Testimonial />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

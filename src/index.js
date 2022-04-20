@@ -5,11 +5,33 @@ import './index.scss'
 import './main.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-
+import { createTheme, ThemeProvider } from '@material-ui/core/styles'
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#00ae42',
+    },
+    secondary: {
+      main: '#ff4336',
+      // main: '#17c0eb',
+    },
+    error: {
+      main: '#ff4757',
+    },
+    success: {
+      main: '#4caf50',
+    },
+    info: {
+      main: '#1e90ff',
+    },
+  },
+})
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
