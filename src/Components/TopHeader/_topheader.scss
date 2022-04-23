@@ -1,9 +1,9 @@
 .Section__TopHeader {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem 4rem 0 4rem;
+  padding: 0.5rem 4rem 0 4rem;
   align-items: center;
-  
+ 
   & .Contact {
     display: flex;
     align-items: center;
@@ -22,8 +22,10 @@
     display: flex;
   }
   &__Icon {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     margin: 0 0.7rem;
+    -webkit-filter: drop-shadow(5px 5px 5px #ccc);
+        filter: drop-shadow(5px 5px 5px #ccc);
     & .facebook {
       color: #3b5998;
     }

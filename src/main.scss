@@ -11,7 +11,7 @@ $color-primary: #00ae42;
 // $color-grey-dark-2: #6d5d4b;
 
 $primary-color: #00ae42;
-$secondary-color: #ff8013;
+$secondary-color: #ffa500;
 // FONT VARIABLES
 $font-primary: 'Poppins', sans-serif;
 $font-secondary: 'Oswald', sans-serif;
@@ -105,6 +105,7 @@ img {
 @import './Pages/Resources/resources';
 @import './Pages/About/about';
 @import './Pages/GRE/gre';
+@import './Pages/Contact/contact';
 //others
 @import './Sass/typography';
 @import './Components/Button/button';

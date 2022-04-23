@@ -60,9 +60,14 @@ footer {
             margin-right: 0.5rem;
             
           }
-          & span {
+          & span , & a {
             font-size: 1.3rem;
+            color: #fff;
           }
+          // & .Email {
+          //   font-size: 1.3rem;
+          //   color: #fff;
+          // }
         }
       }
     }

@@ -26,9 +26,11 @@ const NavBar = () => {
                 <span>Why GRE?</span>
               </li>
             </Link>
-            <li>
-              <span>Contact</span>
-            </li>
+            <Link to='/contact'>
+              <li>
+                <span>Contact</span>
+              </li>
+            </Link>
             <Link to='/resources'>
               <li>
                 <span>Resources</span>

@@ -1,4 +1,5 @@
 .Section__Preparation {
+  position: relative;
   & .Preparation {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,6 +38,40 @@
         width: 200%;
         padding: 6rem;
       }
+    }
+  }
+  & .RandomIcons{
+    
+    &__Triangle{
+      position: absolute;
+      top: 7%;
+      left: 8%;
+      font-size: 7rem;
+      color: #666;
+      opacity: .8;
+    }
+    &__Rectangle{
+      position: absolute;
+      top: 20%;
+      left: 3%;
+      font-size: 6rem;
+      color: #666;
+      opacity: .8;
+    }
+    &__Circle{
+      position: absolute;
+      right: 8%;
+      top: 90%;
+      font-size:7rem;
+      color: orangered;
+      opacity: .8;
+    }
+    &__Polygon{
+      position: absolute;
+      right: 2%;
+      top: 75%;
+      font-size:7rem;
+      color: #3966e5;
     }
   }
 }

@@ -1,8 +1,17 @@
 import React from 'react'
-
+import { BiPolygon } from 'react-icons/bi'
+import { BiRectangle } from 'react-icons/bi'
+import ChangeHistoryIcon from '@material-ui/icons/ChangeHistory'
+import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked'
 const TestPreparation = () => {
   return (
     <section className='Section__Preparation'>
+      <span className='RandomIcons'>
+        <ChangeHistoryIcon className='RandomIcons__Triangle' />
+        <BiRectangle className='RandomIcons__Rectangle' />
+        <RadioButtonUncheckedIcon className='RandomIcons__Circle' />
+        <BiPolygon className='RandomIcons__Polygon' />
+      </span>
       <div className='Preparation'>
         <div className='Preparation__Text'>
           <h1 className='PrimaryHeading'>Test Preparation</h1>

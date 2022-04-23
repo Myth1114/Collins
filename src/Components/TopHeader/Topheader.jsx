@@ -25,11 +25,15 @@ const TopHeader = () => {
         <span className='Contact__Icon'>
           <BiPhoneCall />
         </span>
-        <span className='Contact__Title'>789456123</span>
+        <a href='tel:+977-9867420916' className='Contact__Title'>
+          789456123
+        </a>
         <span className='Contact__Icon'>
           <FiMail />
         </span>
-        <span className='Contact__Title'>collins@gmail.com</span>
+        <a href='mailto:mythleshyadav114@gmail.com' className='Contact__Title'>
+          collins@gmail.com
+        </a>
       </div>
       <div className='Resources'>
         <button className='custom-btn btn-3'>GRE Materials</button>
