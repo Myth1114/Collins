@@ -1,0 +1,35 @@
+.TeamSection {
+  margin: 4rem 1rem;
+}
+.Section__Team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1rem;
+  &--Card {
+    -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    -moz-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    & :hover {
+      background-color: $primary-color;
+      color: #fff;
+      cursor: pointer;
+    }
+    & .Content {
+      padding: 1rem;
+      text-align: center;
+
+      z-index: 3;
+
+      & h2 {
+        font-size: 1.8rem;
+      }
+      & p {
+        font-size: 1.3rem;
+        opacity: 0.6;
+      }
+    }
+  }
+}

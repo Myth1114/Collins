@@ -39,7 +39,7 @@ const Contact = () => {
       <div className='Map'>
         <iframe
           title='Inline Frame Example'
-          src='https://maps.google.com/maps?q=27.52112966187962,83.45485419057195&t=&z=13&ie=UTF8&iwloc=&output=embed'
+          src='https://maps.google.com/maps?q= 27.706610269660718, 85.32242605831733&t=&z=13&ie=UTF8&iwloc=&output=embed'
           frameBorder='0'
           allowFullScreen
           width='100%'

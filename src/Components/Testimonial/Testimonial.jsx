@@ -13,7 +13,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
 const Testimonial = () => {
   return (
     <section className='Testimonial'>
-      <h2 className='SectionHeading'>What our students say about us</h2>
+      <h2 className='SectionHeading'>Our Successful Students</h2>
       <Swiper
         className='Testimonial__Container'
         spaceBetween={40}
